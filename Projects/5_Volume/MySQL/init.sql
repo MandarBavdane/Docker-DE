@@ -1,0 +1,11 @@
+USE demodb;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    -- username VARCHAR(50) NOT NULL UNIQUE,
+    -- email VARCHAR(100) NOT NULL UNIQUE,
+    city VARCHAR(100) NOT NULL,
+    temperature FLOAT NOT NULL
+    -- created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
